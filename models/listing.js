@@ -6,7 +6,7 @@ const Review = require("./review.js");
 const listingSchema = new Schema({
     title: {
         type: String,
-        require: true,
+        required: true,
     },
     description: String,
     image: {
